@@ -1,0 +1,46 @@
+
+<!-- Spotlights -->
+<section id="{{ include.id }}" class="main">
+{% for spotlight in include.spotlights %}
+	<div class="spotlight">
+		<div class="content">
+			<header class="major">
+				<h2>{{ spotlight.title }}</h2>				
+			</header>
+			<p>{{ spotlight.excerpt | remove: "<p>" | remove: "</p>" }}</p>
+		
+
+		{% if spotlight.themes %}
+			<dl>
+				
+				{% for variable in spotlight.themes %}
+					<dt>{{ variable.title | default: "Read More" }}</dt><dd>{{ variable.description | default: "Read More" }}</dd>
+				{% endfor %}
+				
+			</dl>
+			
+		{% endif %}	
+		
+		
+		<ul class="actions">
+
+			{% if spotlight.links %}
+				{% for variable in spotlight.links %}
+					<li><a href="{{ site.baseurl | append: variable.url }}" class="{{ variable.class | default: 'button' }}" >{{ variable.title | default: "Read More" }}</a></li>				
+				{% endfor %}
+			{% endif %}	
+			
+			{% if spotlight.icons %}			
+				{% for social in spotlight.icons %}
+					<li><a href="{{ social.url }}" class="{{ social.class }}"><span class="label">{{ social.icon  }}</span></a></li>
+				{% endfor %}
+			{% endif %}	
+
+		</ul>
+		
+
+		</div>
+	</div>
+{% endfor %}
+</section>	
+

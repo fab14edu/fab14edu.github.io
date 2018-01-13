@@ -1,0 +1,150 @@
+#-------------------------------
+# General Site Settings of Fab Education
+#-------------------------------
+
+title: Fab14 Education
+description: Apprentissage et résilience des territoires
+email: fabio-alberto.cruz-sanchez@univ-lorraine.fr
+
+# Presentation in French
+francais:
+- title: Présentation
+  excerpt: <p>Le festival des fablabs et des apprentissages aura lieu les 12, 13, et 14 juillet 2018 à Bataville (57). Il précède à <a href="http://www.fab14.org/fr/">FAB14</a>, <em>la</em> grande conférence internationale des <a href="https://www.fablabs.io">FabLabs</a> du 16 au 20 juillet à Toulouse. Dans un cadre hors-norme, ce sera le lieux idéal pour échanger et progresser sur les questions suivantes:</p>  
+  themes:
+  - title: STEAM
+    description: Comment un objet créé dans un FabLab peut-il être un support d’apprentissage ?
+  - title: FabLabSchool
+    description: Comment accompagner les tiers-lieux éducatifs d’un point de vue animations, équipements, aménagements, etc ? 
+  - title: ApprendreDemain
+    description: Comment les tiers-lieux éducatifs favorisent le concept de société apprenante ? 
+  - title: Inclusion
+    description: Comment un FabLab propose des pédagogies innovantes pour favoriser l’inclusion ?
+  - title: OpenBadge
+    description: Comment construire des solutions pour documenter et valoriser les compétences acquises dans les FabLabs ?
+  - title: FabLabUbiquity
+    description: Comment un FabLab Mobile ou plus peut-il favoriser de nouvelles pratiques d’apprentissage sur un territoire ?
+  links:
+  - title: Programme
+    url: traductions/francais/#programme
+  - title: À propos
+    url: traductions/francais/#apropos
+  - title: Logistique
+    url: traductions/francais/#logistique
+  - title: Presse
+    url: traductions/francais/#presse
+  icons:
+  - icon: Twitter
+    class: icon fa-twitter alt
+    url: https://twitter.com/fab14edu    
+  - icon: Facebook 
+    class: icon fa-facebook alt
+    url: https://www.facebook.com/pg/fab14edu/
+  # - icon: FabLabs.io
+  #   class: icon alt ico-fablabsio
+  #   url: https://discuss.fablabs.io/t/fab14edu-july-2018-bataville-grand-est-france/6016
+  
+
+# English
+english:
+- title: Presentation
+  excerpt: <p>The conference on “FabLabs and Learning” will take place on July 12th-15th 2018 at Bataville, France. It is just before <a href="http://www.fab14.org/fr/">FAB14</a> which is the international <a href="https://www.fablabs.io">FabLabs</a> conference that will be held  at Toulouse on July 16th-20th. Surrounded by an amazing landscape, our goal is to discuss and explore on the following questions:</p>
+  themes:
+  - title: STEAM 
+    description: What is the role of an object created in a Fablab? Is it useful in the learning process?
+  - title: FabLabSchool
+    description: What are the events, tools (e.g. machines, software/hardware), physical space that can foster the learning process in an educational third place?
+  - title: ApprendreDemain
+    description: How the FabLabs could promote a learning society?
+  - title: Inclusion
+    description: What could be the innovative pedagogies in a FabLab in order to favour diversity and inclusivity?
+  - title: OpenBadge
+    description: How to recognize the accomplishments and skills developed in a FabLab?
+  - title: FabLabUbiquity
+    description: How a mobile FabLab could propose new learning practices in a territory?
+  links:
+  - title: Programme
+    url: index.fr.html#programme
+  - title: À propos
+    url: index.fr.html#apropos
+  - title: Logistique
+    url: index.fr.html#logistique
+  - title: Presse
+    url: index.fr.html#presse
+  icons:
+  - icon: Twitter
+    class: icon fa-twitter alt
+    url: https://twitter.com/fab14edu    
+  - icon: Facebook 
+    class: icon fa-facebook alt
+    url: https://www.facebook.com/pg/fab14edu/
+
+
+# Allemand
+
+allemand:
+- title: Presentation
+  excerpt: <p>Die Konferenz « Fablab und Lernen » findet am 12., 13. und 14. Juli 2018 in Bataville (Lothringen, Frankreich) statt. Direkt danach ist die gro&szlig;e internationale Konferenz der <a href="https://www.fablabs.io">FabLabs</a>, die <a href="http://www.fab14.org/de/">FAB14</a>, vom 16.bis 20. Juli in Toulouse. Dieser au&szlig;ergewöhnliche Rahmen eignet sich perfekt, um an folgenden Fragestellungen zu arbeiten und sich auszutauschen:</p>
+  themes:
+  - title: STEAM 
+    description: Wie kann ein in einem Fablab erschaffenes Objekt das Lernen unterstützen?
+  - title: FabLabSchool
+    description: Wie kann man die verschiedenen Lernstätten begleiten, bezüglich Betreuung, Ausstattung, Einrichtung, usw.?
+  - title: ApprendreDemain
+    description: Wie unterstützen die Lernstätten das Konzept einer lernenden?
+  - title: Inclusion
+    description: Wie bietet ein Fablab innovative pädagogische Methoden, um die Inklusion zu fördern?
+  - title: OpenBadge
+    description: Wie kann man, die in Fablabs erworbenen Kompetenzen dokumentieren und, valorisieren?
+  - title: FabLabUbiquity
+    description: Wie kann eine mobiles Fablab (oder mehrere) neue Lernmethoden auf einem Gebiet begünstigen?
+  links:
+  - title: Programme
+    url: index.de.html#programme
+  - title: About
+    url: index.de.html#about
+  - title: Travel, Hotel, &amp; Access
+    url: index.de.html#venue
+  - title: Presse
+    url: index.de.html#press
+  icons:
+  - icon: Twitter
+    class: icon fa-twitter alt
+    url: https://twitter.com/fab14edu    
+  - icon: Facebook 
+    class: icon fa-facebook alt
+    url: https://www.facebook.com/pg/fab14edu/
+
+
+# Español
+spanish:
+- title: Presentación
+  excerpt: <p>La conferencia sobre « Fablabs y Aprendizaje » sera en Julio 12-15 2018 en Bataille, Francia. Justo antes de la conferencia international de Fablabs que tendra lugar en Toulouse en Julio 16-20. Rodeados de un paisaje increible, el objetivo es discutir y explorar sobre las siguientes preguntas:</p>
+  themes:
+  - title: STEAM 
+    description: ¿Cual es el rol de un prototipo creado en un FabLab? ¿Ayuda in the proceso de aprendizaje?
+  - title: FabLabSchool
+    description: ¿Cuales son lo eventos, herramientas (ej. Maquinas, software/hardware), el espacio físico, entre otros aspectos más, que pueden fomentar el proceso de aprendizaje en los espacios de innovación?
+  - title: ApprendreDemain
+    description: ¿Cómo los fablabs pueden promover un sociedad del aprendizaje?
+  - title: Inclusion
+    description: ¿Cuál seria las pedagogas innovadoras en un FabLab con el fin de promover la diversidad e inclusion social?
+  - title: OpenBadge
+    description: ¿Cómo valor los logros y competencies desarrollados en un Fablab?
+  - title: FabLabUbiquity
+    description: ¿De qué forma un Fablab móvil podría proponer nuevas practicas de aprendizaje en un territorio?
+  links:
+  - title: Programa
+    url: index.es.html#programme
+  - title: Sobre 
+    url: index.es.html#apropos
+  - title: Logistique
+    url: index.es.html#logistique
+  - title: Prensa
+    url: index.es.html#presse
+  icons:
+  - icon: Twitter
+    class: icon fa-twitter alt
+    url: https://twitter.com/fab14edu    
+  - icon: Facebook 
+    class: icon fa-facebook alt
+    url: https://www.facebook.com/pg/fab14edu/
