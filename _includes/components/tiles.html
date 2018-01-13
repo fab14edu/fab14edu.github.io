@@ -1,0 +1,59 @@
+{% comment %}
+
+	Forty by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+
+	Name:
+
+		Tiles
+
+	Description:
+
+		Generates a grid of tiles from an array passed as context. Can also
+		generate the tiles from blog posts by passing site.posts as the array.
+
+		Also accepts an optional "id" param to use as the id attribute.
+
+	Example:
+
+		---
+		my_tiles_array:
+		- image: /images/tile1.jpg
+			url: http://example.com
+			title: Tile title 1
+			excerpt: Tile content 1.
+		- image: /images/tile2.jpg
+			url: http://example.com
+			title: Tile title 2
+			excerpt: Tile content 2.
+		---
+
+		{% include layout/tiles.html id="my-tiles" tiles=page.my_tiles_array %}
+
+{% endcomment %}
+
+<!-- Tiles -->
+	<section id="{{ include.id }}" class="tiles">
+
+		
+		{% for tile in include.tiles %}
+
+			<article>
+
+				{% if tile.image %}
+					<span class="image">
+						<img src="{{ site.baseurl }}{{ tile.image }}" alt="" />
+					</span>
+				{% endif %}
+
+				<header class="white">
+					<h3><a href="{{ tile.url }}" class="link">{{ tile.title }}</a></h3>
+					<p>{{ tile.excerpt | remove: "<p>" | remove: "</p>" }}</p>
+				</header>
+
+			</article>
+
+		{% endfor %}
+
+	</section>
