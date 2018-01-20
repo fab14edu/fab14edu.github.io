@@ -1,6 +1,12 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
+
+@font-face {
+  font-family: "type-36";
+  src: url("/assets/fonts/Type-36-Black.ttf");
+}
+
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -1722,6 +1728,8 @@
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
+		font-color: #00023d;
+		font-family: "type-36", "Source Sans Pro", Helvetica, sans-serif
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1839,7 +1847,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #00023D;
 	}
 
 	blockquote {
