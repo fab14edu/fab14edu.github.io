@@ -1,0 +1,45 @@
+#-------------------------------
+# Settings of Fab Education - Anglais
+#-------------------------------
+
+site:
+  name: Fab14 - Education
+  tagline: Life-long learning through territories!
+  date: July 12-15 / 2018
+  description: This example website will amaze you!
+  keywords: example, website, amazing
+
+
+main:
+  title: Presentation
+  excerpt: prueba
+  themes:
+  - title: STEAM 
+    description: What is the role of an object created in a Fablab? Is it useful in the learning process?
+  - title: FabLabSchool
+    description: What are the events, tools (e.g. machines, software/hardware), physical space that can foster the learning process in an educational third place?
+  - title: ApprendreDemain
+    description: How the FabLabs could promote a learning society?
+  - title: Inclusion
+    description: What could be the innovative pedagogies in a FabLab in order to favour diversity and inclusivity?
+  - title: OpenBadge
+    description: How to recognize the accomplishments and skills developed in a FabLab?
+  - title: FabLabUbiquity
+    description: How a mobile FabLab could propose new learning practices in a territory?
+  links:
+  - title: About
+    url: /about-us/#about
+  - title: Programme
+    url: /about-us/#programme-en
+  - title: Logistique
+    url: /about-us/#logistic
+  - title: Presse
+    url: /about-us/#news
+  icons:
+  - icon: Twitter
+    class: icon fa-twitter alt
+    url: https://twitter.com/fab14edu    
+  - icon: Facebook 
+    class: icon fa-facebook alt
+    url: https://www.facebook.com/pg/fab14edu/
+

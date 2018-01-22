@@ -1,0 +1,49 @@
+#-------------------------------
+# Settings of Fab Education - Francais
+#-------------------------------
+
+site:
+  name: Fab14 - Education
+  tagline: Apprentissage et résilience des territoires!
+  date: 12-15 juillet 2018
+  description: This example website will amaze you!
+  keywords: example, website, amazing
+
+
+
+# Presentation in French
+main:
+  title: Présentation
+  excerpt: "Le festival des fablabs et des apprentissages aura lieu les 12, 13, et 14 juillet 2018 à Bataville (57). Il précède à FAB14, la grande conférence internationale des FabLabs du 16 au 20 juillet à Toulouse. Dans un cadre hors norme, ce sera le lieux idéal pour échanger et progresser sur les questions suivantes:"  
+  themes:
+  - title: STEAM
+    description: Comment un objet créé dans un FabLab peut il être un support d’apprentissage ?
+  - title: FabLabSchool
+    description: Comment accompagner les tiers lieux éducatifs d’un point de vue animations, équipements, aménagements, etc ? 
+  - title: ApprendreDemain
+    description: Comment les tiers lieux éducatifs favorisent le concept de société apprenante ? 
+  - title: Inclusion
+    description: Comment un FabLab propose des pédagogies innovantes pour favoriser l’inclusion ?
+  - title: OpenBadge
+    description: Comment construire des solutions pour documenter et valoriser les compétences acquises dans les FabLabs ?
+  - title: FabLabUbiquity
+    description: Comment un FabLab Mobile ou plus peut il favoriser de nouvelles pratiques d’apprentissage sur un territoire ?
+  links:
+  - title: Programme
+    url: /apropros/#programme
+  - title: À propos
+    url: /apropros/#apropos
+  - title: Logistique
+    url: /apropros/#logistique
+  - title: Presse
+    url: /apropros/#presse
+  icons:
+  - icon: Twitter
+    class: icon fa-twitter alt
+    url: https://twitter.com/fab14edu    
+  - icon: Facebook 
+    class: icon fa-facebook alt
+    url: https://www.facebook.com/pg/fab14edu/
+  # - icon: FabLabs.io
+  #   class: icon alt ico-fablabsio
+  #   url: https://discuss.fablabs.io/t/fab14edu-july-2018-bataville-grand-est-france/6016

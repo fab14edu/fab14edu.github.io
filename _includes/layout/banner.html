@@ -1,0 +1,65 @@
+{% comment %}
+
+	Forty by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+
+	Name:
+
+		Banner
+
+	Description:
+
+		A configurable banner.
+
+	Example:
+
+		---
+		banner:
+			class: style1
+			image: /images/pic01.jpg
+			title: Banner title
+			excerpt: Lorem ipsum dolor sit amet nullam consequat.
+  	---
+
+		{% include layout/banner.html banner=page.banner %}
+
+{% endcomment %}
+
+
+
+<!-- Banner -->
+	<section id="banner" class="{{ include.banner.class }}">
+		<div class="inner">
+
+			{% if include.banner.image %}
+				<span class="image">
+					<img src="{{ site.baseurl }}{{ include.banner.image }}" alt="" />
+				</span>
+			{% endif %}
+
+			<div class="row">
+				<div class="6u 12u$(small)">
+				<header class="major">
+					<h1>{{ include.banner.title }}</h1>
+				</header>
+
+				<div class="content">
+				<p>{{ include.banner.excerpt | remove: "<p>" | remove: "</p>" }}</p>
+
+				{% if include.banner.url %}
+					<ul class="actions">
+						<li><a href="{{ include.banner.url }}" class="button next scrolly">
+							{{ include.banner.link_text | default: "Read More" }}
+						</a></li>
+					</ul>
+				{% endif %}
+
+			</div>
+				</div>	
+			</div>
+
+
+			
+		</div>
+	</section>

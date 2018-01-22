@@ -1,0 +1,48 @@
+#-------------------------------
+# Settings of Fab Education - Espanol
+#-------------------------------
+
+site:
+  name: Fab14 Educación
+  tagline: Aprendizaje y Resiliencia des los territorios !
+  date: Julio 12-15 / 2018
+  description: This example website will amaze you!
+  keywords: example, website, amazing
+
+
+# Español
+main:
+  title: Presentación
+  excerpt: "La conferencia sobre « Fablabs y Aprendizaje » sera en Julio 12-15 2018 en Bataille, Francia. Justo antes de la conferencia international de Fablabs que tendra lugar en Toulouse en Julio 16-20. Rodeados de un paisaje increible, el objetivo es discutir y explorar sobre las siguientes preguntas:"
+  themes:
+  - title: STEAM 
+    description: ¿Cual es el rol de un prototipo creado en un FabLab? ¿Ayuda in the proceso de aprendizaje?
+  - title: FabLabSchool
+    description: ¿Cuales son lo eventos, herramientas (ej. Maquinas, software/hardware), el espacio físico, entre otros aspectos más, que pueden fomentar el proceso de aprendizaje en los espacios de innovación?
+  - title: ApprendreDemain
+    description: ¿Cómo los fablabs pueden promover un sociedad del aprendizaje?
+  - title: Inclusion
+    description: ¿Cuál seria las pedagogas innovadoras en un FabLab con el fin de promover la diversidad e inclusion social?
+  - title: OpenBadge
+    description: ¿Cómo valor los logros y competencies desarrollados en un Fablab?
+  - title: FabLabUbiquity
+    description: ¿De qué forma un Fablab móvil podría proponer nuevas practicas de aprendizaje en un territorio?
+  links:
+  - title: Acerca 
+    url: /acerca/#acerca
+  - title: Programa 
+    url: /acerca/#programa
+  - title: Logistica
+    url: /acerca/#logistica
+  - title: Prensa
+    url: /acerca/#prensa
+  icons:
+  - icon: Twitter
+    class: icon fa-twitter alt
+    url: https://twitter.com/fab14edu    
+  - icon: Facebook 
+    class: icon fa-facebook alt
+    url: https://www.facebook.com/pg/fab14edu/
+
+
+    

@@ -1,0 +1,45 @@
+#-------------------------------
+# Settings of Fab Education - Allemand
+#-------------------------------
+
+site:
+  name: Meine Beispiel-Webseite
+  tagline: Mit gutem Beispiel voran!
+  date: July 12-15 / 2018
+  description: Diese Beispiel-Webseite wird Sie begeistern!
+  keywords: Beispiel, Webseite, toll
+
+
+# Allemand
+main:
+  title: Presentation
+  excerpt: "Die Konferenz « Fablab und Lernen » findet am 12., 13. und 14. Juli 2018 in Bataville (Lothringen, Frankreich) statt. Direkt danach ist die gro&szlig;e internationale Konferenz der FabLabs, die FAB14, vom 16.bis 20. Juli in Toulouse. Dieser au&szlig;ergewöhnliche Rahmen eignet sich perfekt, um an folgenden Fragestellungen zu arbeiten und sich auszutauschen:"
+  themes:
+  - title: STEAM 
+    description: Wie kann ein in einem Fablab erschaffenes Objekt das Lernen unterstützen?
+  - title: FabLabSchool
+    description: Wie kann man die verschiedenen Lernstätten begleiten, bezüglich Betreuung, Ausstattung, Einrichtung, usw.?
+  - title: ApprendreDemain
+    description: Wie unterstützen die Lernstätten das Konzept einer lernenden?
+  - title: Inclusion
+    description: Wie bietet ein Fablab innovative pädagogische Methoden, um die Inklusion zu fördern?
+  - title: OpenBadge
+    description: Wie kann man, die in Fablabs erworbenen Kompetenzen dokumentieren und, valorisieren?
+  - title: FabLabUbiquity
+    description: Wie kann eine mobiles Fablab (oder mehrere) neue Lernmethoden auf einem Gebiet begünstigen?
+  links:
+  - title: About
+    url: /ueber-uns/#about-de
+  - title: Programme
+    url: /ueber-uns/#programme-de
+  - title: Travel, Hotel, &amp; Access
+    url: /ueber-uns/#logistic-de
+  - title: Presse
+    url: /ueber-uns/#news-de
+  icons:
+  - icon: Twitter
+    class: icon fa-twitter alt
+    url: https://twitter.com/fab14edu    
+  - icon: Facebook 
+    class: icon fa-facebook alt
+    url: https://www.facebook.com/pg/fab14edu/

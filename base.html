@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple Redirect Page</title>
+</head>
+<body>
+<script>
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang.indexOf('de') == 0)
+        window.location = '/de/';        
+        // Other languages here
+ 
+    else
+        // Default to English
+        window.location = '/fr/';
+</script>
+</body>
+</html>
