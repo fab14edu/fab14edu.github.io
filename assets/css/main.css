@@ -3811,3 +3811,11 @@
 .ico-fablabsio:before{
 	content: url('../../images/logo-fablab.png');
 }
+
+thead {
+    text-align: center;
+}
+
+td {
+    border: 1px solid #dddddd;
+}
